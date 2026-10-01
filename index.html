@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTrade | The Future of Crypto Trading</title>
+    <meta name="description" content="A premium, next-generation cryptocurrency trading platform featuring real-time data, advanced analytics, and a stunning 3D interface.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="navbar">
+        <div class="container">
+            <nav>
+                <div class="logo">NexTrade</div>
+                <ul class="nav-links">
+                    <li><a href="#markets">Markets</a></li>
+                    <li><a href="#trade">Trade</a></li>
+                    <li><a href="#earn">Earn</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <button class="btn-primary">Connect Wallet</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section with 3D Effect & Image -->
+        <section class="hero container">
+            <div class="hero-content">
+                <h1>Trade Crypto with Next-Gen Precision</h1>
+                <p>Experience lightning-fast execution, deep liquidity, and institutional-grade security on the world's most advanced Web3 trading platform.</p>
+                <div style="display: flex; gap: 1rem;">
+                    <button class="btn-primary" style="padding: 1rem 2.5rem; font-size: 1.1rem;">Start Trading</button>
+                    <button class="btn-primary glass" style="background: transparent; border: 1px solid var(--accent-cyan);">View Demo</button>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="hero_trading.jpg" alt="3D Modern Trading Dashboard">
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Market Data Section -->
+        <section id="markets" class="market-section container">
+            <h2 class="section-title">Live Markets</h2>
+            <div class="market-grid" id="marketGrid">
+                <!-- Market Cards will be injected dynamically via JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo" style="font-size: 1.5rem; margin-bottom: 1rem;">NexTrade</div>
+                    <p style="color: var(--text-secondary); font-size: 0.9rem;">Building the future of decentralized finance with unmatched speed and aesthetic excellence.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#">Spot Trading</a></li>
+                        <li><a href="#">Margin</a></li>
+                        <li><a href="#">Derivatives</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Fees</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NexTrade Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
